@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <!-- Background circles  -->
+    <div class="bg-circles">
+        <div class="circle-1"></div>
+        <div class="circle-2"></div>
+        <div class="circle-3"></div>
+        <div class="circle-4"></div>
+    </div>
+    <!-- background circles end -->
+
+    <!-- Main secction start -->
+    <div class="main hidden">
+
+        <!-- header  -->
+        <header class="header">
+            <div class="container">
+                <div class="row flex-end">
+                    <button type="button" class="nav-toggler">
+                        <span></span>
+                    </button>
+                    <nav class="nav">
+                        <div class="nav-inner">
+                            <ul>
+                                <li><a href="#home" class="nav-item link-item">home</a></li>
+                                <li><a href="#about" class="nav-item link-item">about</a></li>
+                                <li><a href="#projects" class="nav-item link-item">projects</a></li>
+                                <li><a href="#contact" class="nav-item link-item">contact</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!-- header end -->
+
+
+        <!-- Home section -->
+        <section class="home-section align-items-center" id="home">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="home-text">
+                        <p>Hello, I'm</p>
+                        <h1>Prakash Mohaldar</h1>
+                        <h2>Aspiring web developer</h2>
+                        <a href="#about" class="btn link-item">more about me</a>
+                        <a href="#contact" class="btn link-item">let's talk</a>
+                    </div>
+                    <div class="home-img">
+                        <div class="img-box">
+                            <img src="my-image-short.png" alt="my-image">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- Home section ends -->
+
+
+        <!-- About section -->
+        <section class="about-section sec-padding" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>about me</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="about-img">
+                        <div class="img-box">
+                            <img src="my-image-big.png" alt="my-image">
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis doloribus nemo eveniet doloremque dolor 
+                            necessitatibus natus soluta laudantium expedita ipsam sequi, sint eaque assumenda iure! Sapiente quo accusamus
+                             modi dolor numquam eveniet, perspiciatis voluptatem similique error asperiores molestias mollitia neque, facere omnis 
+                             adipisci autem alias dolorem dicta laboriosam id porro?</p>
+                             <h3>skills</h3>
+                             <div class="skills">
+                                 <div class="skill-items">html</div>
+                                 <div class="skill-items">css</div>
+                                 <div class="skill-items">javascript</div>
+                                 <div class="skill-items">bootstrap</div>
+                                 <div class="skill-items">nodejs</div>
+                                 <div class="skill-items">c</div>
+                                 <div class="skill-items">c++</div>
+                             </div>
+
+                             <div class="about-tabs">
+                                 <button type="button" class="tab-item active" data-target="#education">education</button>
+                                 <button type="button" class="tab-item" data-target="#workingat">working at</button>
+                             </div>
+
+                             <!-- education -->
+                             <div class="tab-content active" id="education">
+                                 <div class="timeline">
+                                     <div class="timeline-item">
+                                         <span class="date">2005-2018</span>
+                                         <h4>Junior high school - <span>Carmel Convent school</span></h4>
+                                         <p>Completed my elementary schooling form this school, and passed with good academic scores.</p>
+                                     </div>
+                                     <div class="timeline-item">
+                                         <span class="date">2018-2020</span>
+                                         <h4>higher secondary school - <span>Emmanuel public school</span></h4>
+                                         <p>Completed my +2 from this school. It acted as dummy school for me during my jee prep days. Passed with good grades</p>
+                                     </div>
+                                     <div class="timeline-item">
+                                         <span class="date">2020-till now</span>
+                                         <h4>bachelor of technology - <span>IIT Bhubneshwar</span></h4>
+                                         <p>currently I am a btech 1st year student pursuing electronics and communication engineering. Expected to graduate on 2024</p>
+                                     </div>
+                                 </div>
+                             </div>
+                             <!-- education ends -->
+
+                             <!-- working at -->
+                             <div class="tab-content" id="workingat">
+                                 <div class="timeline">
+                                     <div class="timeline-item">
+                                         <span class="date">2021-till now</span>
+                                         <h4>Website developer - <span>Web and design society IIT BBS</span></h4>
+                                         <p>I am a member of web dev society, working with others to develope some awsome web pages</p>
+                                     </div>
+                                     <div class="timeline-item">
+                                         <span class="date">2021-till now</span>
+                                         <h4>Wissenaire associate - <span>Wissenaire IIT BBS</span></h4>
+                                         <p>I am web dev assosiate in Wissenaire, which is one of the biggest tech fest in ocurring in engineering colleges</p>
+                                     </div>
+                                 </div>
+                             </div>
+                             <!-- working at ends -->
+
+                             <a href="cv.pdf" target="_black" class="btn">download cv</a>
+                             <a href="#contact" class="btn link-item">contact me</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About section ends -->
+
+        <!-- projects section -->
+        <section class="portfolio-section sec-padding" id="projects">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>recent works</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- project items -->
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="project1.jpeg" alt="project1 img">
+                        </div>
+                        <h3 class="portfolio-item-title">Geographic landing page</h3>
+                        <button class="btn view-project-btn" type="button">view projects</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit 
+                                    dolorem, earum sit dignissimos cum nulla, ratione quas natus pariatur, ipsum 
+                                    praesentium delectus voluptatem hic consequatur ab perspiciatis fugit nam neque
+                                     iste quibusdam reiciendis. Qui mollitia quibusdam inventore dolorem molestias
+                                      praesentium!</p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Created - <span>4 may 2021</span></li>
+                                    <li>language used - <span>Html,Css</span></li>
+                                    <li>Role - <span>Frontend</span></li>
+                                    <li>View Online - <span><a href="#" target="_blank">www.geo.com</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- project items end -->
+                    <!-- project items -->
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="project2.png" alt="project2 img">
+                        </div>
+                        <h3 class="portfolio-item-title">Animated gaming site</h3>
+                        <button class="btn view-project-btn" type="button">view projects</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit 
+                                    dolorem, earum sit dignissimos cum nulla, ratione quas natus pariatur, ipsum 
+                                    praesentium delectus voluptatem hic consequatur ab perspiciatis fugit nam neque
+                                     iste quibusdam reiciendis. Qui mollitia quibusdam inventore dolorem molestias
+                                      praesentium!</p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Created - <span>26 march 2021</span></li>
+                                    <li>language used - <span>Html,Css</span></li>
+                                    <li>Role - <span>Frontend</span></li>
+                                    <li>View Online - <span><a href="#" target="_blank">www.game.com</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- project items end -->
+                    <!-- project items -->
+                     <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="project3.png" alt="project3 img">
+                        </div>
+                        <h3 class="portfolio-item-title">Anime select site</h3>
+                        <button class="btn view-project-btn" type="button">view projects</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit 
+                                    dolorem, earum sit dignissimos cum nulla, ratione quas natus pariatur, ipsum 
+                                    praesentium delectus voluptatem hic consequatur ab perspiciatis fugit nam neque
+                                     iste quibusdam reiciendis. Qui mollitia quibusdam inventore dolorem molestias
+                                      praesentium!</p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Created - <span>1 june 2021</span></li>
+                                    <li>language used - <span>Html,Css</span></li>
+                                    <li>Role - <span>Frontend</span></li>
+                                    <li>View Online - <span><a href="#" target="_blank">www.animag.com</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- project items end -->
+                    <!-- project items -->
+                     <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="project4.jpeg" alt="project4 img">
+                        </div>
+                        <h3 class="portfolio-item-title">Responsive blog site</h3>
+                        <button class="btn view-project-btn" type="button">view projects</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit 
+                                    dolorem, earum sit dignissimos cum nulla, ratione quas natus pariatur, ipsum 
+                                    praesentium delectus voluptatem hic consequatur ab perspiciatis fugit nam neque
+                                     iste quibusdam reiciendis. Qui mollitia quibusdam inventore dolorem molestias
+                                      praesentium!</p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Created - <span>22 may 2021</span></li>
+                                    <li>language used - <span>Html,Css,JavaScript</span></li>
+                                    <li>Role - <span>Frontend</span></li>
+                                    <li>View Online - <span><a href="#" target="_blank">www.foodie.com</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- project items end -->
+                    <!-- project items -->
+                     <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="project5.jpeg" alt="project5 img">
+                        </div>
+                        <h3 class="portfolio-item-title">Animated music landing page</h3>
+                        <button class="btn view-project-btn" type="button">view projects</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit 
+                                    dolorem, earum sit dignissimos cum nulla, ratione quas natus pariatur, ipsum 
+                                    praesentium delectus voluptatem hic consequatur ab perspiciatis fugit nam neque
+                                     iste quibusdam reiciendis. Qui mollitia quibusdam inventore dolorem molestias
+                                      praesentium!</p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Created - <span>18 april 2021</span></li>
+                                    <li>language used - <span>Html,Css,JavaSript</span></li>
+                                    <li>Role - <span>Frontend</span></li>
+                                    <li>View Online - <span><a href="#" target="_blank">www.music.com</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- project items end -->
+                    <!-- project items -->
+                     <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="project6.jpg" alt="project6 img">
+                        </div>
+                        <h3 class="portfolio-item-title">Parallax scrolling page</h3>
+                        <button class="btn view-project-btn" type="button">view projects</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit 
+                                    dolorem, earum sit dignissimos cum nulla, ratione quas natus pariatur, ipsum 
+                                    praesentium delectus voluptatem hic consequatur ab perspiciatis fugit nam neque
+                                     iste quibusdam reiciendis. Qui mollitia quibusdam inventore dolorem molestias
+                                      praesentium!</p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Created - <span>10 june 2021</span></li>
+                                    <li>language used - <span>Html,Css,JavaSript</span></li>
+                                    <li>Role - <span>Frontend</span></li>
+                                    <li>View Online - <span><a href="#" target="_blank">www.parallax.com</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- project items end -->
+                    
+                </div>
+            </div>
+        </section>
+        <!-- projects section end -->
+
+        <!-- contact section -->
+    <section class="contact-section sec-padding" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>contact me</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="contact-form">
+                    <form>
+                       <div class="row">
+                            <div class="input-group">
+                                <input type="text" placeholder="Name" class="input-control" required>
+                            </div>
+                            <div class="input-group">
+                                <input type="text" placeholder="Email" class="input-control" required>
+                            </div>
+                            <div class="input-group">
+                                <input type="text" placeholder="Subject" class="input-control" required>
+                            </div>
+                            <div class="input-group">
+                                <textarea placeholder="Message" class="input-control" required></textarea>
+                            </div>
+                            <div class="submit-btn">
+                                <button type="submit" class="btn">send message</button>
+                            </div>
+                    </div>
+
+                    </form>
+                </div>
+                    <div class="contact-info">
+                        <div class="contact-info-item">
+                            <h3>Email</h3>
+                            <p>mohaldarprakash@gmail.com</p>
+                        </div>
+                        <div class="contact-info-item">
+                            <h3>Phone</h3>
+                            <p>91+ 823 967 1201</p>
+                        </div>
+                        <div class="contact-info-item">
+                            <h3>Follow me</h3>
+                            <div class="social-links">
+                                <a href="https://www.facebook.com/prakash.mohaldar/" target="_blank"><i class="fab fa-facebook"></i></a>
+                                <a href="https://www.instagram.com/its_prakash.__/" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact sectio end -->
+
+    </div>
+    <!-- Main section end -->
+
+
+    <!-- projects detail popup -->
+    <div class="portfolio-popup">
+        <div class="pp-inner">
+            <div class="pp-content">
+                <div class="pp-header">
+                    <button type="button" class="btn pp-close"><i class="fas fa-times"></i></button>
+                    <div class="pp-thumbnail">
+                        <img src="project1.jpeg" alt="">
+                    </div>
+                    <h3></h3>
+                </div>
+                <div class="pp-body">
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- projects detail popup end -->
+
+    <!-- loading -->
+    <div class="page-loader">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <!-- loading ends -->
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
